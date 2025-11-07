@@ -10,6 +10,8 @@
         --denied: #ff8686;
         --text: #515959;
         --border: #59de0c;
+        --text-light: #fff;
+
     }
     .main {
         display: flow-root;
@@ -29,6 +31,43 @@
 }
 
 @layer components {
-    /* todo components */
- 
+    .card__title{
+        color: var(--secondary);
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .card__description{
+        color: var(--text);
+        font-size: 0.75em;
+        font-weight: normal;
+    }
+    .highlight{
+        font-weight: bold;
+    }
+    .highlight__green{
+        color: var(--primary);
+    }
+    .card__price1{
+        font-size: 0.75em1;
+    }
+    .highlight__large{
+        font-size: 1.5em;
+    }
+    .card__price2{
+        font-size: 0.65em;
+    }
+    .card__button{
+        background-color: var(--primary);
+        display: inline-block;
+        padding: 1em;
+        border-radius: 0.5em;
+    }
+    .card__button__text{
+        text-align: center;
+        color: var(--text-light);
+        font-size: 0.75em;
+
+    }
+
+
 }
