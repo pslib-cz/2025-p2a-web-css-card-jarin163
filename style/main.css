@@ -57,17 +57,35 @@
         font-size: 0.65em;
     }
     .card__button{
+        margin-top: 1em;
+        margin-bottom: 1em;
         background-color: var(--primary);
-        display: inline-block;
-        padding: 1em;
+        display: block;
+        padding: 0.3em;
         border-radius: 0.5em;
+        text-decoration: none;
     }
     .card__button__text{
         text-align: center;
         color: var(--text-light);
         font-size: 0.75em;
+        font-weight: bolder;
+        text-decoration: none;
 
     }
+    .card__list{
+        margin-top: 2em;
+    }
+    .custom-list{
+        margin-top: 1em;
+        font-size: 0.85em;
+        
 
+    }
+    .custom-list__check{
+        list-style-image: url(./images/check.svg);
+        
+    }
+    
 
 }
